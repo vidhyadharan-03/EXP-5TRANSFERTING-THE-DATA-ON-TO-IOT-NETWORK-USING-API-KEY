@@ -1,8 +1,11 @@
 ## EXPERIMENT-05-TRANSFERRING-DATA-TO-IOT-NETWORK-USING-API-KEY
-## NAME:
-## REGISTER NUMBER:
-## DEPARTMENT:
-## YEAR:
+NAME: VIDHYADHARAN R
+
+REGISTER NUMBER: 212222110053
+
+DEPARTMENT: CSE(IOT)
+
+YEAR: 3rd year
 ## Aim:
 To transfer sensor data to an IoT platform (ThingSpeak) using an API key.
 
@@ -32,7 +35,7 @@ Use the requests library to send HTTP POST requests containing sensor data to Th
 Code Implementation: Here’s the Python code that reads sensor data and sends it to ThingSpeak:
 
 ## python
- 
+```
 import requests
 import time
 
@@ -66,6 +69,8 @@ def send_to_thingspeak(payload):
 while True:
     send_to_thingspeak(payload)
     time.sleep(15)  # Sleep for 15 seconds before sending the next data
+```
+
 Execute the Program:
 
 Run the Python script on your computer or upload the corresponding code to your microcontroller.
@@ -75,9 +80,11 @@ Monitor Data on ThingSpeak:
 Visit your ThingSpeak channel’s dashboard to view the real-time data being sent from the sensors.
 ## Outputs:
 Sensor Data Visualization: The sensor data will be updated on the ThingSpeak dashboard in real-time.
+![WhatsApp Image 2024-11-15 at 08 47 18_48d224bd](https://github.com/user-attachments/assets/ab3ee712-e00d-4222-b2c2-64a0f80997c7)
+
 Console Output: The console will print a success message for each data transfer, indicating the status (success or failure).
-## Simulation Screenshots:
-(Add screenshots of the ThingSpeak dashboard showing the sensor data and the Python script execution.)
+![image](https://github.com/user-attachments/assets/e6582ecb-84c9-4f85-999d-1aaf469d03e4)
+
 
 ## Results:
 The sensor data was successfully transferred to the ThingSpeak IoT platform using an API key. The experiment demonstrated how to send data from sensors to an IoT network and visualize it remotely using ThingSpeak. The periodic data updates were successfully logged and displayed on the ThingSpeak platform.
